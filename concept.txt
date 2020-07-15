@@ -1,0 +1,28 @@
+# Broad Idea
+Prey-switching in a spatial context has been posited as a possible mechanism for
+predator persistence under global change. But can we actually identify
+trait-based switching? And can we figure out when persistence might actually
+happen. NOTE: it’s not about actual ABUNDANCE, it’s about AVAILABILITY
+– it doesn’t matter how many of the organisms are in the environment, it matters
+how accessible they are to the predator. Use an IBM to see if I can detect a
+prey-switching event based on the change in the availability of a preferred prey
+due to climate. Then, fit real data from the lake system and try to understand
+how a warming climate and/or different types of switching may affect predator
+persistence.
+
+
+The ‘switching’ or the shape of the curve can be looked at by the amount they
+feed on the littoral organisms versus the deep water organisms when they have
+access to both. That confers some selection, which you could think of as being
+based on prey size & shape, where in the litoral zone you have a bunch of
+larger, fusiform fish and benthic invertebrates, and in the deeper water, you
+have smaller, more compact zooplankton and freshwater shrimp. With size being a
+major driving component, I’m going to lump this into a size-based ‘large,
+nearshore, fish’ prey and ‘small, offshore, shrimp-like’ prey. These traits
+can be amalgamated into a ‘multi-trait similarity’.
+
+# Analysis Plan
+1. Build spatially-implicit IBM to simulate the prey-switching
+2. Try fitting model (see ppt for equations until I get initial doc done)
+3. Try fitting model with more complex IBM (spatially-explicit)
+4. Fit model to real data from the lake trout example
