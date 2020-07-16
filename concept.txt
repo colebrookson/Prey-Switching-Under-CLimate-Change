@@ -24,5 +24,28 @@ can be amalgamated into a ‘multi-trait similarity’.
 # Analysis Plan
 1. Build spatially-implicit IBM to simulate the prey-switching
 2. Try fitting model (see ppt for equations until I get initial doc done)
-3. Try fitting model with more complex IBM (spatially-explicit)
-4. Fit model to real data from the lake trout example
+3. Do a power analysis
+4. Try fitting model with more complex IBM (spatially-explicit)
+5. Fit model to real data from the lake trout example
+
+# Plan for spatially-implicit IBM:
+Should be roughly three components:
+1. Description of the prey populations growing
+  a) birth
+  b) natural death (?)
+2. Description of the predator population
+  a) birth
+3. Description of the prey availability to the predator, and the subsequent
+predation on the two prey sources
+
+Part 1 - Description of prey populations (done for one 'species')
+  1. initialize individuals in an array
+  2. assign characteristics (i.e. column names)
+    a) this is often positionality, but for now leave that out - availability
+    might be important here though
+    b) the characteristics will have to be assigned as (ideally, variable)
+    values (i.e. coming from a distribution)
+  3.
+
+NOTES:
+1. give every process in the IBM it's own function
