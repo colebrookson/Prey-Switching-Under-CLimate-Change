@@ -1,0 +1,34 @@
+
+Part 1 - Description of prey populations (done for one 'species')
+  1. initialize individuals in an array
+  2. assign characteristics (i.e. column names)
+    a) this is often positionality, but for now leave that out - availability
+    might be important here though
+    b) the characteristics will have to be assigned as (ideally, variable)
+    values (i.e. coming from a distribution)
+    c) also need a space for reproduction
+  3. describe reproduction via some function
+    a) the function fills a 'characteristics' column
+  4. describe death via some function
+    a) do it via checking abundnace, assigns probability of indidivual death
+      based on some carrying capacity, then realizes death by a Bernoulli trial
+      using that assined probability
+Part 2 - Description of predator populations
+  1. initialize individuals in an array
+  2. assign predatory characteristics
+  3. describe reproduction
+    a) start this with predation -- do this by a sub-function that looks at
+      prey overlap with the predator and executes a probobalistic predation
+      based on pair-wise traits
+    b) use the scaling parameter to calculate the conversion from prey to pred
+  4. describe death
+    a) can do this through some function of having not eaten for a given amount
+      of time.
+NOTES:
+1. give every process in the IBM it's own function
+2. keep a loop (while loop) to move through all the different processes in time
+3. don't forget a scaling term to make sure the predator
+4. make sure the predation happens before birth/death of the prey
+
+Possible title: 'Species traits and environmental factors interact to structure
+predator-prey interactions'
