@@ -57,6 +57,17 @@ def birth(inds: np.array, lamda: float, reproduction_column: int):
 
     return inds
 
+#Goal is to write death function that mimics (1-n/k)
+def death(inds: np.array, )
+
+
+
+
+
+
+
+
+
 ###### prey
 inds = np.zeros((4, 100))
 inds[0] = range(1,101) #individual number
